@@ -6,7 +6,7 @@ class TestSequenceFunctions(unittest.TestCase):
     def setUp(self):
         self.seq = range(10)
 
-
+#UN COMMENTAIRE
 
     def test_choice(self):
         element = random.choice(self.seq)
