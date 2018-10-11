@@ -11,7 +11,7 @@ class TestSequenceFunctions(unittest.TestCase):
     def test_choice(self):
         element = random.choice(self.seq)
         self.assertTrue(element in self.seq)
-preeeeeeeee
+
     def test_sample(self):
         with self.assertRaises(ValueError):
             random.sample(self.seq, 20)
